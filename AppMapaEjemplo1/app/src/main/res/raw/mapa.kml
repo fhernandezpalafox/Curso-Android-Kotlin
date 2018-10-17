@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mapa Basico</name>
+    <description/>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>2</scale>
+        <Icon>
+          <href>https://image.ibb.co/b0ZhJG/merkercustom.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+         <text><![CDATA[<h3>Notificacion Personalizada<br/></h3><a>Link</a>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>2</scale>
+        <Icon>
+          <href>https://image.ibb.co/b0ZhJG/merkercustom.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+             <text><![CDATA[<h3>Notificacion Personalizada<br/></h3><a>Link</a>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>2</scale>
+        <Icon>
+          <href>https://image.ibb.co/b0ZhJG/merkercustom.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+                 <text><![CDATA[<h3>Notificacion Personalizada<br/></h3><a>Link</a>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>2</scale>
+        <Icon>
+          <href>https://image.ibb.co/b0ZhJG/merkercustom.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+                <text><![CDATA[<h3>Notificacion Personalizada<br/></h3><a>Link</a>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-000000-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin título</name>
+      <Placemark>
+        <name>Punto 1</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.7115062,21.1509853,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punto 2</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.7110878,21.1511554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punto 3</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.7107123,21.1510803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punto 4</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.7115062,21.1516557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rectoria</name>
+        <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -101.711871,21.1514506,0
+                -101.7118496,21.151408,0
+                -101.7117879,21.151363,0
+                -101.7118442,21.151298,0
+                -101.7116913,21.1511779,0
+                -101.7115331,21.151333,0
+                -101.7115733,21.1513655,0
+                -101.7115277,21.1514005,0
+                -101.7117208,21.1515681,0
+                -101.7117745,21.1515081,0
+                -101.7117959,21.1515256,0
+                -101.711871,21.1514506,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Punto 6</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.7116779,21.1513205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Línea 7</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -101.7120373,21.1515231,0
+            -101.7118362,21.1510228,0
+            -101.7102134,21.1503224,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Línea 8</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -101.7101732,21.1503174,0
+            -101.7096421,21.1514506,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Capa sin título</name>
+    </Folder>
+    <Folder>
+      <name>Capa sin título</name>
+    </Folder>
+    <Folder>
+      <name>Indicaciones de Avenida Universidad 604, Lomas del Sol, 37123 León, Gto., México a Manuel Lopez Sanabria 218, Lomas del Campestre, 37150 León, Gto., México</name>
+      <Placemark>
+        <name>Indicaciones de Avenida Universidad 604, Lomas del Sol, 37123 León, Gto., México a Manuel Lopez Sanabria 218, Lomas del Campestre, 37150 León, Gto., México</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -101.71208,21.15166,0
+            -101.71198,21.15135,0
+            -101.71192,21.15124,0
+            -101.71188,21.15116,0
+            -101.71186,21.15111,0
+            -101.71183,21.15105,0
+            -101.71181,21.15098,0
+            -101.7114,21.15082,0
+            -101.71116,21.15072,0
+            -101.711,21.15065,0
+            -101.7109,21.15017,0
+            -101.71082,21.14981,0
+            -101.71078,21.14959,0
+            -101.71061,21.14848,0
+            -101.71052,21.14791,0
+            -101.71043,21.14763,0
+            -101.71043,21.14758,0
+            -101.71043,21.14755,0
+            -101.71044,21.1475,0
+            -101.71045,21.14748,0
+            -101.71047,21.14743,0
+            -101.71052,21.14739,0
+            -101.71055,21.14738,0
+            -101.71062,21.14734,0
+            -101.71071,21.14731,0
+            -101.71078,21.1473,0
+            -101.71092,21.14728,0
+            -101.71086,21.14693,0
+            -101.7108,21.14661,0
+            -101.71078,21.1465,0
+            -101.71055,21.14655,0
+            -101.71005,21.14661,0
+            -101.70994,21.14664,0
+            -101.70955,21.14671,0
+            -101.70943,21.14673,0
+            -101.70934,21.14675,0
+            -101.70905,21.14679,0
+            -101.70874,21.14682,0
+            -101.70755,21.14703,0
+            -101.70674,21.14714,0
+            -101.70677,21.14699,0
+            -101.70679,21.14686,0
+            -101.70704,21.14546,0
+            -101.70676,21.14544,0
+            -101.70658,21.14541,0
+            -101.70644,21.14537,0
+            -101.70643,21.1454,0
+            -101.70642,21.14542,0
+            -101.7064,21.14547,0
+            -101.70638,21.14549,0
+            -101.70636,21.14553,0
+            -101.70635,21.14556,0
+            -101.70634,21.14558,0
+            -101.70633,21.1456,0
+            -101.70632,21.1456,0
+            -101.70632,21.14561,0
+            -101.70631,21.14562,0
+            -101.7063,21.14562,0
+            -101.70629,21.14563,0
+            -101.70628,21.14563,0
+            -101.70627,21.14563,0
+            -101.70626,21.14562,0
+            -101.70594,21.14555,0
+            -101.70555,21.14549,0
+            -101.7054,21.14547,0
+            -101.70463,21.14534,0
+            -101.70384,21.14521,0
+            -101.70367,21.1462,0
+            -101.7035,21.14698,0
+            -101.70346,21.14718,0
+            -101.70336,21.14718,0
+            -101.70335,21.14719,0
+            -101.70323,21.14726,0
+            -101.70308,21.14737,0
+            -101.70295,21.14746,0
+            -101.70285,21.14752,0
+            -101.70276,21.14759,0
+            -101.70233,21.1479,0
+            -101.70143,21.1485,0
+            -101.70148,21.14856,0
+            -101.70178,21.14896,0
+            -101.70204,21.14929,0
+            -101.70228,21.14962,0
+            -101.70262,21.15003,0
+            -101.70281,21.1503,0
+            -101.7029,21.15042,0
+            -101.703,21.15053,0
+            -101.70303,21.15056,0
+            -101.70307,21.15059,0
+            -101.70306,21.15067,0
+            -101.70298,21.15105,0
+            -101.70294,21.15127,0
+            -101.70291,21.15144,0
+            -101.70286,21.1517,0
+            -101.70282,21.15196,0
+            -101.7027,21.15255,0
+            -101.70266,21.15272,0
+            -101.70263,21.15285,0
+            -101.70259,21.15305,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Avenida Universidad 604, Lomas del Sol, 37123 León, Gto., México</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.7120806,21.1516556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manuel Lopez Sanabria 218, Lomas del Campestre, 37150 León, Gto., México</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.7025882,21.1530531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
