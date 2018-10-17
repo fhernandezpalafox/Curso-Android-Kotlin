@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">AppMapas1</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps">Location Mapa Kotlin</string>
 </resources>
