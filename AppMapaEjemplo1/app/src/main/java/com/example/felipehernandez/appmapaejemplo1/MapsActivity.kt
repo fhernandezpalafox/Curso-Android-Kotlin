@@ -181,8 +181,10 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback{
 
                 /*mFusedLocationClient!!.lastLocation.addOnCompleteListener(this,(Task<Location>())->{
 
-
+                        geoLocalizacion()
                 })*/
+
+
 
             }
         }
@@ -349,8 +351,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback{
 
 
 
-    class Marcadores
-            constructor(titulo:String, lat:Double,lng:Double,imagen:Int){
+    class Marcadores constructor(titulo:String, lat:Double,lng:Double,imagen:Int){
                 var Titulo : String =  titulo
                 var Lat:Double = lat
                 var Lng:Double = lng
