@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
 
+
         navview.setNavigationItemSelectedListener { menuItem->
             var fragmentTransaction = false
             var fragment: Fragment? = null
@@ -47,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.menu_opcion_2 -> Log.i("NavigationView", "Pulsada opción 2")
             }
             if (fragmentTransaction) {
-                getSupportFragmentManager().beginTransaction()
+                supportFragmentManager.beginTransaction()
                     .replace(R.id.content_frame, fragment!!)
                     .commit()
                 menuItem.setChecked(true)
@@ -61,7 +62,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun  onCreateOptionsMenu(menu:Menu):Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu)
+        menuInflater.inflate(R.menu.menu_main, menu)
         return true
     }
 
@@ -71,7 +72,7 @@ class MainActivity : AppCompatActivity() {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        when (item.getItemId()) {
+        when (item.itemId) {
             android.R.id.home -> {
                 drawer_layout.openDrawer(GravityCompat.START)
                 return true
