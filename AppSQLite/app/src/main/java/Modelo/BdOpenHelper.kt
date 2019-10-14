@@ -12,7 +12,7 @@ class BdOpenHelper(context: Context): SQLiteOpenHelper(context,DATABASE_NAME,nul
 
     override fun onCreate(db: SQLiteDatabase?) {
         db!!.execSQL(EventosDataSource.CREATE_EVENTOS_SCRIPT)
-        db!!.execSQL(EventosDataSource.INSERT_EVENTOS_SCRIPT)
+        db.execSQL(EventosDataSource.INSERT_EVENTOS_SCRIPT)
     }
 
     override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
