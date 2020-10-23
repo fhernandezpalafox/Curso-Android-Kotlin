@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             edad  = 30
 
         val nombre  =  "Felipe" //let
-            //nombre  = "Oscaar"
+            //nombre  = "Oscar"
 
 
         //Tipos explicitos
@@ -160,8 +160,10 @@ class MainActivity : AppCompatActivity() {
         var laSuma  = suma(8,7)
         println("la suma de los dos numero fue $laSuma")
 
+
         //funciones  como expression
         println("la suma de tres numeros es ${suma(3,6,8)}")
+
 
         //funciones con parametros nombrados
         println(suma(numero2= 5,numero1 = 8,numero3 = 5))
